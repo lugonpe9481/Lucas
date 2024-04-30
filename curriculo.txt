@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Lucas Gonçalves Pereira </title>
+    <style>
+        .curriculo {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .nome {
+            box-shadow: 0 3px 6px #00000029;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+            margin-bottom: 50px;
+            font-weight: 600;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nome img {
+            width: 100px;
+            height: 100px;
+            margin-left: 20px;
+            border-radius: 50%;
+        }
+
+
+        .contato {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .contato div {
+            margin-bottom: 10px;
+        }
+
+        .containerexper {
+            box-shadow: 0 3px 6px #00000029;
+            padding: 20px;
+        }
+
+        .headerexper {
+            display: flex;
+            justify-content: left;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .experiencia1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 25px;
+            font-size: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .experiencia1 div {
+            margin-bottom: 10px;
+        }
+
+        .experiencia2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 25px;
+            font-size: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .experiencia2 div {
+            margin-bottom: 10px;
+        }
+
+        .experiencia3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 5px;
+            font-size: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .experiencia3 div {
+            margin-bottom: 10px;
+        }
+
+        .containerforma {
+            box-shadow: 0 3px 6px #00000029;
+            padding: 20px;
+            margin-top: 50px
+        }
+
+        .headerforma {
+            display: flex;
+            justify-content: left;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .formacao1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 25px;
+            font-size: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .formacao1 div {
+            margin-bottom: 10px;
+        }
+
+        .formacao2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 25px;
+            font-size: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .formacao2 div {
+            margin-bottom: 10px;
+        }
+
+        .formacao3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 5px;
+            font-size: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .formacao3 div {
+            margin-bottom: 10px;
+        }
+
+        .containerlangue {
+            box-shadow: 0 3px 6px #00000029;
+            padding: 20px;
+            margin-top: 50px
+        }
+
+        .headerlangue {
+            display: flex;
+            justify-content: left;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .idiomas {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 10px;
+            font-size: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .containerpubli {
+            box-shadow: 0 3px 6px #00000029;
+            padding: 20px;
+            margin-top: 50px
+        }
+
+        .headerpubli {
+            display: flex;
+            justify-content: left;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .publicacao {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 10px;
+            font-size: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .containercompe {
+            box-shadow: 0 3px 6px #00000029;
+            padding: 20px;
+            margin-top: 50px
+        }
+
+        .headercompe {
+            display: flex;
+            justify-content: left;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .competencias {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 10px;
+            font-size: 10;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="curriculo">
+        <div id="nome">
+            <div class="nome">
+                <div>Lucas Gonçalves Pereira </div>
+                <div>
+                    <img src="Eu.jpeg" style="width: 100px; height: 100px;margin-left:20px; border-radius: 50%;">
+                </div>
+            </div>
+        </div>
+        <div id="contato">
+            <div class="contato">
+                <div>Jacareí, São Paulo, Brasil</div>
+                <div>Celular: (12) 981079288</div>
+                <div>e-mail: lugonpe9481@gmail.com</div>
+                <div>
+                    <a href="https://www.linkedin.com/in/lucas-gon%C3%A7alves-pereira-a5a177218/" target="blank">Perfil
+                        do LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="containerexper">
+            <div class="experiencia1">
+                <div class="headerexper">Experiência</div>
+                <div>Canoinhas Geoassessoria</div>
+                <div>Desenhista</div>
+                <div>maio de 2021 - Presente (2 anos 11 meses)</div>
+                <div>Atuação junto a equipe de Geoprocessamento e Cadastro em análises</div>
+                <div>ambientais e mapeamentos através do uso de imagens de satélite,</div>
+                <div>vetorização de informações e manipulação de dados geográficos para a</div>
+                <div>construção de mapas e croquis que atendam as necessidades da empresa</div>
+                <div>(análises de conversão floresta nativa x não floresta, mapas para projetos de</div>
+                <div>crédito de carbono, mapas para prospecção de plantio, informativos de plantio</div>
+                <div>e corte de silvicultura)</div>
+            </div>
+            <div class="experiencia2">
+                <div>Canoinhas Geoassessoria</div>
+                <div>Desenhista Técnico</div>
+                <div>setembro de 2013 - março de 2016 (2 anos 7 meses)</div>
+                <div>Serviços de assessoria técnica, geoprocessamento de imagens, vetorização</div>
+                <div>de imagens VANT, geração/atualização de base cartográfica, vetorização de</div>
+                <div>microplanejamento ambiental, análise de alinhamento de plantio.</div>
+            </div>
+            <div class="experiencia3">
+                <div>Secretaria Municipal de Meio Ambiente de Jacareí</div>
+                <div>Estagiário</div>
+                <div>março de 2013 - setembro de 2013 (7 meses)</div>
+                <div>Atendimento ao público, orientação aos munícipes acerca de processos</div>
+                <div>ambientais, auxílio aos engenheiros responsáveis do setor</div>
+            </div>
+        </div>
+        <div class="containerforma">
+            <div class="formacao1">
+                <div class="headerforma">Formação Acadêmica</div>
+                <div>Fatec CPS</div>
+                <div>Curso Superior de Tecnologia (CST), Geoprocessamento</div>
+                <div>(fevereiro de 2022 - dezembro de 2024)</div>
+            </div>
+            <div class="formacao2">
+                <div>Universidade Estadual do Centro-Oeste</div>
+                <div>Licenciatura em Língua Portuguesa e Literaturas de Língua Portuguesa, Licenciatura em Letras</div>
+                <div>(janeiro de 2016 - abril de 2021)</div>
+            </div>
+            <div class="formacao3">
+                <div>Etep - Centro Universitário</div>
+                <div>Tecnólogo em Gestão Ambiental, Gestão Ambiental</div>
+                <div>(janeiro de 2012 - dezembro de 2013)</div>
+            </div>
+        </div>
+        <div class="containerlangue">
+            <div class="idiomas">
+                <div class="headerlangue">Idiomas</div>
+                <div>Português (nativo)</div>
+                <div>Inglês (Avançado)</div>
+            </div>
+        </div>
+        <div class="containercompe">
+            <div class="competencias">
+                <div class="headercompe">Principais Competências</div>
+            </div>
+        </div>
+        <div class="containerpubli">
+            <div class="publicacao">
+                <div class="headerpubli">Publicações</div>
+                <div>
+                    <a href="http://www.entrepalavras.ufc.br/revista/index.php/Revista/article/view/1538"
+                        target="blank">A assexualidade no discurso jornalístico: uma análise discursiva</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

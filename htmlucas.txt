@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página Dividida Verticalmente</title>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+    .container {
+        display: flex;
+        height: 100%;
+    }
+    .left {
+        flex: 1;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    .right {
+        flex: 2;
+        background-color: #e0e0e0;
+        padding: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left">
+        <h2>Lado Esquerdo</h2>
+        <p>Coloque aqui suas informações para o lado esquerdo.</p>
+    </div>
+    <div class="right">
+        <h2>Lado Direito</h2>
+        <p>Coloque aqui suas informações para o lado direito.</p>
+    </div>
+</div>
+
+</body>
+</html>
